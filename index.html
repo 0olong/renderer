@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Renderer</title>
+        <link href='http://fonts.font.im/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./assets/index.css">
+        <script defer src='renderer/3dModel.js'></script>
+        <script defer src='renderer/myobject.js'></script>
+        <script defer src='renderer/utils.js'></script>
+        <script defer src='renderer/vector.js'></script>
+        <script defer src='renderer/color.js'></script>
+        <script defer src='renderer/canvas.js'></script>
+        <script defer src='renderer/vertex.js'></script>
+        <script defer src='renderer/mesh.js'></script>
+        <script defer src='renderer/matrix.js'></script>
+        <script defer src='renderer/camera.js'></script>
+        <script defer src='renderer/config.js'></script>
+        <script defer src='renderer/image.js'></script>
+        <script defer src="renderer/slider.js"></script>
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="workspace">
+                <h1><i>RENDERER</i></h1>
+                <div class="canvas-container">
+                    <div class="config"></div>
+                    <canvas id="id-canvas" width="800" height="600"></canvas>
+                    <div class="button-container">
+                        <div class="fuller-button blue" id="buttonLight">Flat Shading</div>
+                        <div class="fuller-button blue" id="buttonEarth">Earth</div>
+                        <div class="fuller-button blue" id="buttonSnowman">Snowman</div>
+                        <div class="fuller-button blue" id="buttonStone">Stoneman</div>
+                        <div class="fuller-button blue" id="buttonFrostmourne">Frostmourne</div>
+                        <div class="fuller-button blue" id="buttonChest">Chest</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
